@@ -14,21 +14,18 @@
 
 <h2 align="center">¡Bienvenidos a nuestro proyecto! El Buen Sabor</h2>
 
-* Grupo: Empresaurios
-* Comisión: 3K09
-* Cátedra: Desarollo De Software
-* Año: 2023
-* Universidad Tecnológica Nacional - Facultad Regional Mendoza
-
-
-
 ### Sobre nosotros
- <p align="left">
+ <p align="righ">
      <img
          src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
          alt="fullstackdeveloper"
         width="360px"
          height="260px"
-        align="center"
+        align="right"
     />
  </p>
+* Grupo: Empresaurios
+* Comisión: 3K09
+* Cátedra: Desarollo De Software
+* Año: 2023
+* Universidad Tecnológica Nacional - Facultad Regional Mendoza
