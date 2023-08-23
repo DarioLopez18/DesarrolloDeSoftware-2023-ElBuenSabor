@@ -1,4 +1,4 @@
-# DesarrolloDeSoftware-2023-ElBuenSabor
+# DESARROLLO DE SOFTWARE 2023 - EL BUEN SABOR
 
 <div> 
     <p align="center">
@@ -11,8 +11,6 @@
         /> 
      </p>
 </div>
-
-<h2 align="center">¡Bienvenidos a nuestro proyecto! El Buen Sabor</h2>
 
 # Datos Institucionales
  <p align="righ">
