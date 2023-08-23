@@ -2,7 +2,7 @@
 
 <p>
     <img
-    src="https://drive.google.com/file/d/1VxZrX5-aXe7Mxkk3hfFrHuhkKPgJI-Hn/view?usp=sharing"
+    src="b732c2df-b05f-4e51-a076-28629e391a31.jpg"
     alt="fullstackdeveloper"
     width="360px"
     height="260px"
