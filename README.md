@@ -32,3 +32,5 @@
 * Cátedra: Desarollo De Software
 * Proyecto: Ecommerce de Comida Rápida El Buen Sabor
 * Universidad Tecnológica Nacional - Facultad Regional Mendoza
+
+<h3 align="center">Integrantes del Grupo</h3>
