@@ -7,7 +7,7 @@
             alt="fullstackdeveloper"
             width="500px"
             height="500px"
-            align="left"
+            align="center"
         /> 
      </p>
 </div>
