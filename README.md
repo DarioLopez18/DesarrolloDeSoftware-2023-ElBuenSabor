@@ -12,7 +12,7 @@
      </p>
 </div>
 
-<h2>¡Bienvenidos a nuestro proyecto! El Buen Sabor</h2>
+<h2 align="center">¡Bienvenidos a nuestro proyecto! El Buen Sabor</h2>
 
 * Grupo: Empresaurios
 * Comisión: 3K09
