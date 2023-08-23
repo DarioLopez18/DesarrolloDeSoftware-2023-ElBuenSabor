@@ -20,7 +20,7 @@
          src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
          alt="fullstackdeveloper"
         width="360px"
-         height="200px"
+         height="170px"
         align="right"
     />
  </p>
