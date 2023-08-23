@@ -68,7 +68,7 @@
 * Control de Stock
 * Administración del rubro
 
-# Funcionalidades de estadísticas y información relevante para el dueño de la tienda
+# Funcionalidades de estadísticas y información relevante
 
 * Ranking de comida mas pedidas en un periodo de tiempo
 * Ingresos por periodos de tiempo. Diario/mensual
