@@ -25,9 +25,10 @@
     />
  </p>
 
-* Grupo: Empresaurios
-* Comisión: 3K09
-* Cátedra: Desarollo De Software
 * Año: 2023
+* Comisión: 3K09
+* Grupo: Empresaurios
+* Profesor: Alberto Cortez
+* Cátedra: Desarollo De Software
 * Proyecto: Ecommerce de Comida Rápida El Buen Sabor
 * Universidad Tecnológica Nacional - Facultad Regional Mendoza
