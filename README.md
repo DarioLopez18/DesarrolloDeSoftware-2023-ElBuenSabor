@@ -15,13 +15,12 @@
     </h2>
 </div>
 
-<div>
- * Grupo: Empresaurios
- * Comisión: 3K09
- * Cátedra: Desarollo De Software
- * Año: 2023
- * Universidad Tecnológica Nacional - Facultad Regional Mendoza
-</div>
+* Grupo: Empresaurios
+* Comisión: 3K09
+* Cátedra: Desarollo De Software
+* Año: 2023
+* Universidad Tecnológica Nacional - Facultad Regional Mendoza
+
 
 
 ### Sobre nosotros
