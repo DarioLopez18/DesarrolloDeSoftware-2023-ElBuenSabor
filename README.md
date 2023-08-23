@@ -13,6 +13,9 @@
     <h2>
         ¡Bienvenidos a nuestro proyecto! El Buen Sabor
     </h2>
+    <p>
+        
+    </p>
 </div>
 
 #
