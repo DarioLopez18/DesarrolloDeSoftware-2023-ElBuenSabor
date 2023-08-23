@@ -34,3 +34,12 @@
 * Universidad Tecnológica Nacional - Facultad Regional Mendoza
 
 # Integrantes del Grupo
+
+* Jana Bacin
+* Matias Mesa
+* Dario Lopez
+* Felipe Haudet
+* Andrés Totera
+* Agustín Zurano
+* Jennifer Ledesma
+* Valentina Ilardo
