@@ -29,4 +29,5 @@
 * Comisión: 3K09
 * Cátedra: Desarollo De Software
 * Año: 2023
+* Proyecto: Ecommerce de Comida Rápida El Buen Sabor
 * Universidad Tecnológica Nacional - Facultad Regional Mendoza
