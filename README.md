@@ -1,7 +1,7 @@
 # DesarrolloDeSoftware-2023-ElBuenSabor
 
 <div> 
-    <p align="center";margin-right=10px>
+    <p align="center">
         <img
             src="b732c2df-b05f-4e51-a076-28629e391a31.jpg"
             alt="fullstackdeveloper"
@@ -15,11 +15,14 @@
     </h2>
 </div>
 
+<div>
  * Grupo: Empresaurios
  * Comisión: 3K09
  * Cátedra: Desarollo De Software
  * Año: 2023
  * Universidad Tecnológica Nacional - Facultad Regional Mendoza
+</div>
+
 
 ### Sobre nosotros
  <p align="left">
