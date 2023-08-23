@@ -44,6 +44,55 @@
 
 # Temática del Sitio
 
+<h3>Se nos pide realizar una aplicación web ecommerce de comida rápida</h3>
+
+* La aplicación debe ser RESPONSIVA
+* Debe contar con todos los menús disponibles, con ingredientes,precios,y un nombre
+* Se debe de poder realizar pedidos desde una PC en el local, en casa, o desde un celular
+* El cliente debe poder registrarse en la aplicación
+* El cliente debe poder realizar un pedido que debe contar con todos los datos necesarios para su identificación
+* El pedido puede retirarse en local o ser enviado a domicilio
+* Se reciben como medios de pago efectivo (en local) o Mercado Pago (en delivery)
+* Se debe proporcionar el tiempo estimado de demora para entregar un pedido
+
+# Se proporcionan las siguientes funciones principales: 
+
+* Registro y administración de Clientes
+* Adminstrar usuarios y Roles
+* La clave del usuario debe estar encriptada
+* Administración de Pedidos
+* Administración de Facturas
+* Administración de Articulos y artículos manufacturados
+* Envio email al cliente de la factura
+* Implementar pago: mediante varias formas de pago
+* Control de Stock
+* Administración del rubro
+
+# Funcionalidades de estadísticas y información relevante para el dueño de la tienda
+
+* Ranking de comida mas pedidas en un periodo de tiempo
+* Ingresos por periodos de tiempo. Diario/mensual
+* Cantidad de pedidos agrupados por cliente en un determinado periodo de tiempo
+* Monto de ganancia en un periodo (ventas - costos)
+
+# Interfaces de usuario principales del sistema
+
+*	Portal WEB donde el cliente podrá registrarse y realizar los pedidos vía PC o celular
+*	Interfaces de administración de pedidos y facturas por parte del empleado cajero
+*	Interface de pedidos pendientes para el cocinero
+*	Interface de administración de artículos y artículos manufacturados
+*	Reportes estadísticos para toma de decisiones
+
+# Módulos del sistema
+
+* Módulo de usuario
+* Módulo de realización de pedidos
+* Módulo de recepción y entrega de pedidos
+* Módulo de Cocina
+* Módulo de venta
+* Módulo de rubros, stock de ingredientes y productos
+* Módulo de Estadísticas e informes 
+
 # TECNOLOGÍAS UTILIZADAS
 
 * ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
