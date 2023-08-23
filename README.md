@@ -19,8 +19,8 @@
      <img
          src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
          alt="fullstackdeveloper"
-        width="360px"
-         height="140px"
+        width="300px"
+         height="120px"
         align="right"
     />
  </p>
