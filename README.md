@@ -10,10 +10,9 @@
             align="left"
         /> 
      </p>
-    <h2>
-        ¡Bienvenidos a nuestro proyecto! El Buen Sabor
-    </h2>
 </div>
+
+<h2>¡Bienvenidos a nuestro proyecto! El Buen Sabor</h2>
 
 * Grupo: Empresaurios
 * Comisión: 3K09
