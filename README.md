@@ -1,6 +1,6 @@
 # DesarrolloDeSoftware-2023-ElBuenSabor
 
-<p>
+<p align="center">
     <img
     src="b732c2df-b05f-4e51-a076-28629e391a31.jpg"
     alt="fullstackdeveloper"
