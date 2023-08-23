@@ -19,13 +19,13 @@
     </p>
 </div>
 
-### Sobre nosotros
-<p align="left">
-    <img
-        src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
-        alt="fullstackdeveloper"
-        width="360px"
-        height="260px"
-        align="center"
-    />
-</p>
+1. ### Sobre nosotros
+2. <p align="left">
+3.     <img
+4.         src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
+5.         alt="fullstackdeveloper"
+6.         width="360px"
+7.         height="260px"
+8.         align="center"
+9.     />
+10. </p>
