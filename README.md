@@ -14,7 +14,7 @@
 
 <h2 align="center">¡Bienvenidos a nuestro proyecto! El Buen Sabor</h2>
 
-### Sobre nosotros
+### Datos Institucionales
  <p align="righ">
      <img
          src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
