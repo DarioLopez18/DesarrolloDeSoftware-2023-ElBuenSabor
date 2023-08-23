@@ -31,7 +31,7 @@
 * Proyecto: Ecommerce de Comida Rápida El Buen Sabor
 * Universidad Tecnológica Nacional - Facultad Regional Mendoza
 
-# Integrantes del Grupo
+# Integrantes del Grupo:
 
 * Jana Bacin
 * Matias Mesa
@@ -42,7 +42,7 @@
 * Jennifer Ledesma
 * Valentina Ilardo
 
-# Temática del Sitio
+# Temática del Sitio:
 
 <h3>Se nos pide realizar una aplicación web ecommerce de comida rápida</h3>
 
@@ -68,14 +68,14 @@
 * Control de Stock
 * Administración del rubro
 
-# Funcionalidades de estadísticas y información relevante
+# Funcionalidades de estadísticas y información relevante:
 
 * Ranking de comida mas pedidas en un periodo de tiempo
 * Ingresos por periodos de tiempo. Diario/mensual
 * Cantidad de pedidos agrupados por cliente en un determinado periodo de tiempo
 * Monto de ganancia en un periodo (ventas - costos)
 
-# Interfaces de usuario principales del sistema
+# Interfaces de usuario principales del sistema:
 
 *	Portal WEB donde el cliente podrá registrarse y realizar los pedidos vía PC o celular
 *	Interfaces de administración de pedidos y facturas por parte del empleado cajero
@@ -83,7 +83,7 @@
 *	Interface de administración de artículos y artículos manufacturados
 *	Reportes estadísticos para toma de decisiones
 
-# Módulos del sistema
+# Módulos del sistema:
 
 * Módulo de usuario
 * Módulo de realización de pedidos
@@ -93,7 +93,7 @@
 * Módulo de rubros, stock de ingredientes y productos
 * Módulo de Estadísticas e informes 
 
-# TECNOLOGÍAS UTILIZADAS
+# TECNOLOGÍAS UTILIZADAS:
 
 * ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 * ![JIRA](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white)
