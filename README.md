@@ -20,7 +20,7 @@
 </div>
 
 # Sobre nosotros
-<p align="center">
+<p align="left">
     <img
         src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
         alt="fullstackdeveloper"
