@@ -14,7 +14,8 @@
         ¡Bienvenidos a nuestro proyecto! El Buen Sabor
     </h2>
     <p>
-        
+        Somos el grupo Empresaurios, de la comisión 3K09 de la Universidad Tecnológica Nacional
+        - Facultad Regional Mendoza.
     </p>
 </div>
 
