@@ -19,7 +19,7 @@
     </p>
 </div>
 
-# Sobre nosotros
+### Sobre nosotros
 <p align="left">
     <img
         src="https://media.giphy.com/media/2C6v4QD5d3YOO4YhID/giphy-downsized-large.gif"
