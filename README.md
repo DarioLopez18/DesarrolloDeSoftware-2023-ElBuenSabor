@@ -91,7 +91,14 @@
 * Módulo de Cocina
 * Módulo de venta
 * Módulo de rubros, stock de ingredientes y productos
-* Módulo de Estadísticas e informes 
+* Módulo de Estadísticas e informes
+
+# Público Objetivo:
+
+* Consumidores de cómida rápida
+* Consumidores de Hamburguesas, Bebidas
+* Dueños de Franquicias de Comida Rápida
+* Personas Interesadas en la Compra Venta de Comida rápida por internet
 
 # TECNOLOGÍAS UTILIZADAS:
 
