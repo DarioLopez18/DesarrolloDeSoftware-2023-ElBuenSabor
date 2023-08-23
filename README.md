@@ -6,6 +6,6 @@
     alt="fullstackdeveloper"
     width="360px"
     height="260px"
-    align="center"
+    align="right"
 />
 </p>
