@@ -9,7 +9,10 @@
             height="500px"
             align="left"
         /> 
-     </p>    
+     </p>
+    <h2>
+        ¡Bienvenidos a nuestro proyecto! El Buen Sabor
+    </h2>
 </div>
 
 <p>
