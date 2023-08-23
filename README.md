@@ -13,10 +13,11 @@
     <h2>
         ¡Bienvenidos a nuestro proyecto! El Buen Sabor
     </h2>
-    <p>
-        Somos el grupo Empresaurios, de la comisión 3K09 de la Universidad Tecnológica Nacional
-        - Facultad Regional Mendoza.
-    </p>
+    *Grupo: Empresaurios
+    *Comisión: 3K09
+    *Cátedra: Desarollo De Software
+    *Año: 2023
+    *Universidad Tecnológica Nacional - Facultad Regional Mendoza
 </div>
 
 ### Sobre nosotros
