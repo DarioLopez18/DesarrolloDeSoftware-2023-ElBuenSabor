@@ -31,20 +31,15 @@
 * Proyecto: Ecommerce de Comida Rápida El Buen Sabor
 * Universidad Tecnológica Nacional - Facultad Regional Mendoza
 
-# Integrantes del Grupo:
+# Breve resumen del proyecto
 
-* Jana Bacin
-* Matias Mesa
-* Dario Lopez
-* Felipe Haudet
-* Andrés Totera
-* Agustín Zurano
-* Jennifer Ledesma
-* Valentina Ilardo
+El delivery de comidas de la ciudad “El Buen Sabor” ofrece a sus clientes una amplia variedad de bebidas y de comidas de fabricación propia. Posee un horario de atención de lunes a domingos de 20:00 a 12:00, y de sábados y domingos de 11:00 a 15:00. Los clientes tienen a disposición un menú que describe cada una de las comidas, el nombre, los ingredientes y el precio. Los clientes realizan sus pedidos en el mostrador del local mediante una PC o pueden hacerlo en forma remota desde su casa o su celular personal (la aplicación debe ser responsive).
 
 # Temática del Sitio:
 
 <h3>Se nos pide realizar una aplicación web ecommerce de comida rápida</h3>
+
+<h2>Delivery de comida rápida</h2>
 
 * La aplicación debe ser RESPONSIVA
 * Debe contar con todos los menús disponibles, con ingredientes,precios,y un nombre
@@ -95,10 +90,22 @@
 
 # Público Objetivo:
 
+* Adolescentes y jóvenes
 * Consumidores de cómida rápida
 * Consumidores de Hamburguesas, Bebidas
 * Dueños de Franquicias de Comida Rápida
 * Personas Interesadas en la Compra Venta de Comida rápida por internet
+
+# Integrantes del Grupo:
+
+* Jana Bacin
+* Matias Mesa
+* Dario Lopez
+* Felipe Haudet
+* Andrés Totera
+* Agustín Zurano
+* Jennifer Ledesma
+* Valentina Ilardo
 
 # TECNOLOGÍAS UTILIZADAS:
 
