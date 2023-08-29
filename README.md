@@ -39,8 +39,7 @@ El delivery de comidas de la ciudad “El Buen Sabor” ofrece a sus clientes un
 
 <h3>Se nos pide realizar una aplicación web ecommerce de comida rápida</h3>
 
-<h2> Delivery de comida rápida </h2>
-
+* Delivery de Comida Rápida
 * La aplicación debe ser RESPONSIVA
 * Debe contar con todos los menús disponibles, con ingredientes,precios,y un nombre
 * Se debe de poder realizar pedidos desde una PC en el local, en casa, o desde un celular
