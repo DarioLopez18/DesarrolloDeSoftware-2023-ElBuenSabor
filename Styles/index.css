@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
 body{
     background-color: #2e0d23;
+}
+
+.btn-primary{
+    background-color: #f7803c;
+    border: #f7803c;
+    border-radius: 4px;
+    color: #ffedbf;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+.btn-secondary{
+    background-color: #f7803c;
+    border: #f7803c;
+    border-radius: 4px;
+    color: #2e0d23;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
 }
 
 .contenedor-header{
@@ -14,19 +32,18 @@ body{
 .contenedor-header header nav ul{
     align-items: center;
     display: flex;
-    font-size: 30px;
-    /*font-family: Bebas-Neue;*/
-    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content:space-around;
     list-style: none;
 }
 
 .contenedor-header header nav ul li a{
-    text-align: none;
     color: #ffedbf;
-    margin: 0 15px;
     padding: 3px;
-    transition: .5s;
+    text-align: none;
     text-decoration: none;
+    transition: .5s;
 }
 
 .contenedor-header header nav ul li a:hover{
@@ -35,6 +52,8 @@ body{
 }
 
 .contenedor-header header nav ul li #logo{
-    height: 250px;
-    width: 250px;
+    height: 60px;
+    width: 205px;
 }
+
+
