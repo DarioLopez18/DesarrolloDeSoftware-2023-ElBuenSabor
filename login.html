@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="Styles/login.css" />
+  </head>
+
+  <body>
+    <div
+      class="container-login100"
+      style="background-image: url('img/body-burger.png')"
+    >
+      <!-- Contenido de los Formularios -->
+      <form class="form" action="/" method="POST">
+        <h1>BIENVENIDO</h1>
+
+        <input
+          class="input"
+          type="email"
+          name="email"
+          placeholder="EMAIL"
+        /><br />
+        <input type="password" name="password" placeholder="Contraseña" /><br />
+        <p><a href="#">OLVIDÉ MI CONTRASEÑA</a></p>
+
+        <!-- Button para Google -->
+        <button type="button" class="google-sign-in-button">
+          Sign in with Google
+        </button>
+
+        <!-- Button para INGRESAR -->
+        <p><button type="submit">INGRESAR</button></p>
+
+        <!-- Link para registrarse -->
+        <p>
+          No tienes cuenta?
+          <a href="register.html">REGISTRARSE</a>
+        </p>
+      </form>
+    </div>
+  </body>
 </html>
