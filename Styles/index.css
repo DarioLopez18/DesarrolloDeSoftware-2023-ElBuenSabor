@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
 
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #2e0d23;
 }
 
 a {
     color: #ffedbf;
+    text-decoration: none;
+    font-family:'Bebas Neue';
+    font-size: xx-large;
 }
 
-button{
+button {
     background-color: #f7803c;
     border: #f7803c;
     border-radius: 4px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px; 
+    width: 170px;
 }
 
 button :hover{
@@ -39,7 +50,7 @@ button :hover{
     height: 80px;
     justify-content: space-between;
     list-style: none;
-    padding: 14px 60px;
+    padding: 10px 30px;
     width: 1440px;
 }
 
@@ -80,6 +91,7 @@ button :hover{
 }
 
 h1{
+    margin: 80px;
     color: #ffedbf;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 80px;
