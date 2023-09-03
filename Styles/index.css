@@ -97,6 +97,14 @@ a {
     color: #f7803c;
 }
 
+.contenedor-vermas :hover{
+    align-items: center;
+    color: #f7803c;
+    display: inline-flex;
+    flex-direction: column;
+    left: 50%;
+}
+
 h1{
     margin: 80px;
     color: #ffedbf;
