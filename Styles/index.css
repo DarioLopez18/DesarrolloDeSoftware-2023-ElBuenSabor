@@ -2,7 +2,6 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Work Sans';
     margin: 0;
     padding: 0;
 }
@@ -84,6 +83,13 @@ a {
     flex-direction: column;
     left: 50%;
     position: absolute;
+    color:#ffedbf;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.37px;
+
 }
 
 .contenedor-vermas :hover{
@@ -110,16 +116,6 @@ h1{
     font-style: normal;
     font-weight: 400;
     line-height: 61px; /* 76.25% del font-size*/
-    letter-spacing: 0.37px;
-}
-
-h4{
-    color:#ffedbf;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 100% del font-size*/
     letter-spacing: 0.37px;
 }
 
