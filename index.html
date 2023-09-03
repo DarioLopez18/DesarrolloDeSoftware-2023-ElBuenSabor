@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel= "stylesheet" href="/Styles/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 </head>
 <body>
-  <div style="background-image: url('/img/body-burger.png');">
+  <div id="inicio" style="background-image: url('/img/body-burger.png');">
     <div class = "contenedor-header">
       <header>    
         <nav id="nav">
           <ul>
             <li><img src="/img/el-buen-sabor.png" id="logo"></li>
             <li><a href="index.html">INICIO</a></li>
-            <li><a href="#menu">MENU</a></li>
+            <li><a href="#menu" onclick="seleccionar()" >MENU</a></li>
             <li><a href="#quienesSomos">QUIENES SOMOS</a></li>
             <li><a href="#contacto">CONTACTO</a></li>
             <button class="contenedor-rightvar">
@@ -32,10 +33,11 @@
     <div>
       <h1 class="tracking-in-expand">¡Bienvenido a nuestra hamburgueseria irresistible!</h1>
     </div>
-    <div class="contenedor-vermas" >
-      <h4>ver mas</h4>
-      <img src="/img/down-arrow.png" alt="down-arrow">
-    </div>
+    <button class="contenedor-vermas" >
+      <a href=""><h4>ver mas</h4><i class="bi bi-chevron-compact-down"></i></a>
+    </button>
+  </div>
+  <div id="menu">
     <div>
       <button class="icono-carrito">
         <i class="bi bi-cart"></i>
@@ -51,5 +53,6 @@
       </button>    
     </div>
   </div>
+  <script src="Script/index.js"></script>
 </body>
 </html>
