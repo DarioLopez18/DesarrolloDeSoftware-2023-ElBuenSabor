@@ -1,69 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
 
+:root{
+    --main-img:var(url("/img/body-burger.png"));
+    --bg:var(rgba(255,255,255,0));
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
 *{
+    border: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-a {
-    color: #ffedbf;
+    outline: none;
     text-decoration: none;
-    font-family:'Bebas Neue';
-    font-size: xx-large;
+    text-transform: capitalize;
+    transition: .2s linear;
 }
 
-.contenedor-rightvar {
-    background-color: #f7803c;
-    border: #f7803c;
-    border-radius: 4px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px; 
-    width: 170px;
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
 }
 
-.contenedor-rightvar :hover{
-    background-color: #2e0d23;
-    border: #2e0d23;
-    border-radius: 4px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
-    transition: .5s ;
-    width: 170px;
+html::-webkit-scrollbar{
+    width: .8rem;
 }
 
-.contenedor-header{
-    background: rgba(255, 255, 255, 0.00);
+html::-webkit-scrollbar-track{
+    background: transparent;
 }
 
-.contenedor-header header nav ul{
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+.header{
     align-items: center;
+    background: var(--bg);
+    border-bottom: var(--border);
     display: flex;
-    flex-shrink: 0;
+    justify-content: space-around;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo{
+    height: 41px;
+    width: 294px;
+}
+.header .navbar a{
+    color: #ffedbf;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
-    height: 80px;
-    justify-content: space-between;
-    list-style: none;
+    font-size: xx-large;
     padding: 10px 30px;
-    width: 1440px;
 }
-
-.contenedor-header header nav ul li a{
-    padding: 3px;
-    text-align: none;
-    text-decoration: none;
-    transition: .5s;
-}
-
-.contenedor-header header nav ul li a:hover{
+.header .navbar a:hover{
+    border-bottom: .1rem solid var(--main-color);
     color: #f7803c;
+    padding-bottom: .5rem;
     text-decoration: underline;
 }
 
-.contenedor-header header nav ul li #logo{
-    height: 41px;
-    width: 294px;
+.header .rightbar{
+    display: flex;   
+}
+
+.header .rightbar div a{
+    align-items: center;
+    background-color: #f7803c;
+    border-radius: 4px;
+    color: #ffedbf;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+    width: 170px;    
+}
+
+.header .rightbar div a:hover{
+    align-items: center;
+    background-color: #2e0d23;
+    color: #f7803c;
+}
+
+#menu-btn{
+    display: none;
 }
 
 .contenedor-menu{
@@ -72,7 +98,7 @@ a {
     display: flex;
     justify-content: space-between;
     /*no se si iria*/
-    margin-left: 560px;
+    left: 50%;
     padding: 0px 20px;
     width: 400px;
 }
@@ -107,6 +133,10 @@ a {
     border: rgba(255, 255, 255, 0.00);
     color: #f7803c;
 }
+
+
+
+
 
 h1{
     margin: 80px;
@@ -144,4 +174,45 @@ h1{
       opacity: 1;
     }
   }
+ /*media queries*/
 
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media(max-width:768px){
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        background: #2e0d23;
+        height: calc(100vh - 9.5rem);
+        position: absolute;
+        top: 100%; right: -100%;
+        width: 30rem;
+    }
+
+    .header .navbar.active{
+        right: 0;
+    }
+
+    .header .navbar a{
+        color: #ffedbf;
+        display: block;
+        font-size: 2rem;
+        margin: 1.5rem;
+        padding: .5rem;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
