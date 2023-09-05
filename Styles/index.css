@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
 
+/*Generales*/
+
 :root{
-    --main-img:var(url("/img/body-burger.png"));
-    --bg:var(rgba(255,255,255,0));
+    /*Paleta de Colores*/
+    --claro: #ffedbf;
+    --oscuro: #2e0d23;
     --border: .1rem solid rgba(255,255,255,.3);
+    /*Tipos de fuentes*/
+}
+
+/*Este codigo sirve para detener el scroll en secciones determinadas para que sea mas facil navegar*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 *{
@@ -17,55 +29,75 @@
     transition: .2s linear;
 }
 
+/*Codigo que se aplica en todo el html*/
+
 html{
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
 
+/*scrollbar derecho*/
 html::-webkit-scrollbar{
     width: .8rem;
 }
 
 html::-webkit-scrollbar-track{
-    background: transparent;
+    background: #0e0e0e;
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #fff;
+    background: #f7803c;
     border-radius: 5rem;
 }
 
+/*codigo que se aplica a todo el body*/
+
+body{
+    background: var(--claro);
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+/* inicio de estilos para el header */
+
 .header{
     align-items: center;
-    background: var(--bg);
+    background: rgba(255,255,255, 0);
     border-bottom: var(--border);
     display: flex;
     justify-content: space-around;
     padding: 1.5rem 7%;
-    position: fixed;
+    position: absolute;
     top: 0; left: 0; right: 0;
     z-index: 1000;
 }
 
 .header .logo{
+    background: rgba(255,255,255, 0);
     height: 41px;
     width: 294px;
 }
+
 .header .navbar a{
-    color: #ffedbf;
+    background: rgba(255,255,255, 0);
+    color: var(--claro);
     font-family: 'Bebas Neue', sans-serif;
-    font-size: xx-large;
-    padding: 10px 30px;
+    font-size: 1.6rem; 
+    padding: .5rem;
 }
+
 .header .navbar a:hover{
-    border-bottom: .1rem solid var(--main-color);
+    border-bottom: .1rem solid var(var(--claro));
     color: #f7803c;
     padding-bottom: .5rem;
     text-decoration: underline;
 }
 
 .header .rightbar{
+    background: rgba(255,255,255, 0);
     display: flex;   
 }
 
@@ -73,85 +105,241 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     background-color: #f7803c;
     border-radius: 4px;
-    color: #ffedbf;
+    color: var(--claro);
     cursor: pointer;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: xx-large;
+    font-size: 1.6rem;
     display: flex;
     justify-content: space-around;
-    width: 170px;    
+    margin: .1rem;
+    width: 150px;    
 }
 
 .header .rightbar div a:hover{
     align-items: center;
-    background-color: #2e0d23;
+    background-color: var(--oscuro);
     color: #f7803c;
+}
+
+/* inicio de estilos para el home */
+
+.home{
+    background: url(../img/body-burger.png) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home .content{
+    margin-top: 8%;
+    width: 35rem;
+}
+
+.home .content h1{
+    margin: 2rem;
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 61px; /* 76.25% del font-size*/
 }
 
 #menu-btn{
     display: none;
 }
 
-.contenedor-menu{
+.contenedor-vermas{
+  margin: 7rem;
+}
+
+.contenedor-vermas a{
     align-items: center;
-    background: rgba(255, 255, 255, 0.00);
+    color: var(--claro);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    left: 50%;
+    position: absolute;   
+}
+
+.contenedor-vermas a:hover{
+    color: #f7803c;
+}
+
+/* inicio de estilos para el menu */
+
+.contenedor {
+    max-width: 90%;
+    margin: 0 auto;
+}
+  
+.nav a {
+    margin-right: 30px;
+}
+  
+.nav {
+    grid-column-end: 3;
+    grid-column-start: 2;
+}
+  
+.nav-izq {
+    display: flex;
+    justify-content: right;
+    margin-right: 2px;
+}
+  
+.nav-bg {
+    background-color: var(--claro);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+  
+.nav-bg .nav-izq {
+    margin-left: 500px;
+}
+  
+
+.menu-contenedor {
+    background-color: var(--claro);
+}
+
+  /*TEXTO MENU*/
+
+.menu-contenedor h1 {
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    text-align: center;
+    color: var(--oscuro);
+}
+  
+.plato img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+  
+.plato {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.titulo {
+    text-align: center;
+    color: var(--oscuro);
+    background-color: var(--claro);
+}
+  
+.img-burger {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+  
+.parrafo-burger {
+    margin-top: 10px;
+}
+  
+.texto {
+    grid-row-end: 3;
+    grid-row-start: 1;
+    color: var(--oscuro);
+}
+  
+.carrito {
+    display: flex;
+    font-size: 40px;
+    color: var(--oscuro);
+    gap: 10px;
+    align-items: center;
+}
+  
+.carrito p{
+    font-size: 30px;
+}
+  
+.nav-bg {
+    margin-top: 20px;
+}
+  
+hr {
+    color: var(--oscuro);
+    margin: 10px 0;
+}
+  
+.precio {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* inicio de estilos para el footer */
+
+.footer {
     display: flex;
     justify-content: space-between;
-    /*no se si iria*/
-    left: 50%;
-    padding: 0px 20px;
-    width: 400px;
-}
-
-.contenedor-vermas{
+    background-color: var(--oscuro);
     align-items: center;
-    display: inline-flex;
-    flex-direction: column;
-    left: 50%;
-    position: absolute;
-    color:#ffedbf;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.37px;
-
 }
-
-.contenedor-vermas :hover{
+  
+.footer-izq {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    color: var(--claro);
+    font-size: .625rem;
+    margin: 0;
+}
+  
+.footer-centro img{
+    max-width: 19rem;
+    max-height: 9rem;
+}
+  
+.footer-derecho {
+    display: grid;
+    color: var(--claro);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    color: #f7803c;
-    display: inline-flex;
-    flex-direction: column;
-    left: 50%;
+    padding-right: 1rem;
+}
+  
+.email,
+.whatsapp,
+.ig {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+  
+.metodos {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+  
+.contacto {
+    font-size: 1rem;
+    color: var(--claro);
+    margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
-.contenedor-carrito{
-    width: 50px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.00);
-    border: rgba(255, 255, 255, 0.00);
-    color: #f7803c;
-}
 
 
 
 
 
-h1{
-    margin: 80px;
-    color: #ffedbf;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 61px; /* 76.25% del font-size*/
-    letter-spacing: 0.37px;
-}
 
-.menu{
-    background-color: #ffedbf;
-}
+
 
 /*Animacion de texto de h1 de home*/
 
@@ -174,40 +362,69 @@ h1{
       opacity: 1;
     }
   }
+
  /*media queries*/
 
-@media(max-width:991px){
-    html{
-        font-size: 55%;
-    }
-    .header{
-        padding: 1.5rem 2rem;
-    }
-}
+@media(width <= 991px){
 
-@media(max-width:768px){
     #menu-btn{
         display: inline-block;
     }
 
-    .header .navbar{
-        background: #2e0d23;
-        height: calc(100vh - 9.5rem);
-        position: absolute;
-        top: 100%; right: -100%;
-        width: 30rem;
+    html{
+        font-size: 65%;
     }
+
+    section{
+        padding: 2rem 7%;
+    }
+
+    .header .navbar{
+        background: var(--oscuro);
+        position: absolute;
+        top: 5rem; right: -100%;
+        width: 20rem;
+    }
+
+    .header .navbar a{
+        color: var(--claro);
+        display: block;
+        font-size: 2rem;
+        margin: 1.5rem;   
+    }
+
+    .header .rightbar{
+        background: var(--oscuro);
+        position: absolute;
+        flex-wrap: wrap;
+        height: 6rem;
+        justify-content: space-around;
+        top: 26rem; right: 0%;
+        width: 20rem;
+    }
+
+    .header .rightbar div{
+        color: var(--claro);
+        display: block;
+        margin: .5rem;
+    }  
 
     .header .navbar.active{
         right: 0;
     }
 
-    .header .navbar a{
-        color: #ffedbf;
-        display: block;
-        font-size: 2rem;
-        margin: 1.5rem;
-        padding: .5rem;
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content{
+        font-size: 4.5rem;
+    }
+
+    .home{
+        font-size: 1.5rem;
     }
 }
 
