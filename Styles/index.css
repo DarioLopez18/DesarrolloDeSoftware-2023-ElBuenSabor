@@ -10,6 +10,8 @@
     /*Tipos de fuentes*/
 }
 
+
+
 /*Este codigo sirve para detener el scroll en secciones determinadas para que sea mas facil navegar*/
 
 *,
@@ -172,11 +174,6 @@ section{
 
 /* inicio de estilos para el menu */
 
-.contenedor {
-    max-width: 90%;
-    margin: 0 auto;
-}
-  
 .nav a {
     margin-right: 30px;
 }
@@ -202,81 +199,24 @@ section{
 .nav-bg .nav-izq {
     margin-left: 500px;
 }
-  
-
-.menu-contenedor {
-    background-color: var(--claro);
-}
 
   /*TEXTO MENU*/
 
-.menu-contenedor h1 {
+.menu .titulo{
     font-family: "Bebas Neue";
     font-size: 80px;
     text-align: center;
     color: var(--oscuro);
 }
-  
-.plato img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+
+.titulo-cards{
+    color:#2e0d23;
+    font-family: "Bebas Neue";
+    font-size:30px;
 }
-  
-.plato {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    place-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-  
-.titulo {
+
+.btn-group{
     text-align: center;
-    color: var(--oscuro);
-    background-color: var(--claro);
-}
-  
-.img-burger {
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-  
-.parrafo-burger {
-    margin-top: 10px;
-}
-  
-.texto {
-    grid-row-end: 3;
-    grid-row-start: 1;
-    color: var(--oscuro);
-}
-  
-.carrito {
-    display: flex;
-    font-size: 40px;
-    color: var(--oscuro);
-    gap: 10px;
-    align-items: center;
-}
-  
-.carrito p{
-    font-size: 30px;
-}
-  
-.nav-bg {
-    margin-top: 20px;
-}
-  
-hr {
-    color: var(--oscuro);
-    margin: 10px 0;
-}
-  
-.precio {
-    font-size: 25px;
-    font-weight: bold;
 }
 
 /* inicio de estilos para el footer */
