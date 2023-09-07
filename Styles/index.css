@@ -213,7 +213,7 @@ section{
 
 .menu .titulo{
     font-family: "Bebas Neue";
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     color: var(--oscuro);
 }
@@ -224,8 +224,14 @@ section{
     font-size:30px;
 }
 
-.btn-group{
-    text-align: center;
+.card-text{
+    font-family: "Saira Condensed";
+    font-size:20px;
+    color: #2e0d23;
+}
+
+.card-body{
+    background-color: #F8E4C1;
 }
 
 /* inicio de estilos para el footer */
@@ -281,12 +287,6 @@ section{
     margin-bottom: 5px;
     text-transform: uppercase;
 }
-
-
-
-
-
-
 
 
 
