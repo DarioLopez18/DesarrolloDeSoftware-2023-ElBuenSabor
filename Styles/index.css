@@ -200,6 +200,15 @@ section{
     margin-left: 500px;
 }
 
+section{
+    padding: 2rem 7%;
+    background-color: #ffedbf;
+}
+
+.contenedor {
+    max-width: 90%;
+    margin: 0 auto;
+}
   /*TEXTO MENU*/
 
 .menu .titulo{
