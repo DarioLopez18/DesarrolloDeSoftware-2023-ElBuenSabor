@@ -44,6 +44,20 @@ button[type="submit"]:hover {
     background-color: #f8e4c1;
 }
 
+.button_volver{
+    background-color: #f7813c00;
+        padding: 12px 72px;
+        margin: 4px 0px;
+        color: #F7803C;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+
+}
+.button_volver[type="button"]:hover {
+    background-color: #f8e4c1;
+}
+
 .google-sign-in-button {
     cursor: pointer;
     transition: background-color .3s, box-shadow .3s;
