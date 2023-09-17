@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
+
+/*Generales*/
+
+:root{
+    /*Paleta de Colores*/
+    --claro: #ffedbf;
+    --oscuro: #2e0d23;
+    --border: .1rem solid rgba(255,255,255,.3);
+    /*Tipos de fuentes*/
+}
+
+/*Este codigo sirve para detener el scroll en secciones determinadas para que sea mas facil navegar*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+/*Codigo que se aplica en todo el html*/
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*scrollbar derecho*/
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #0e0e0e;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #f7803c;
+    border-radius: 5rem;
+}
+
+/*codigo que se aplica a todo el body*/
+
+body{
+    background: var(--claro);
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+/* inicio de estilos para el header */
+
+.header{
+  align-items: center;
+  background: var(--oscuro);
+  border-bottom: var(--border);
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 7%;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+}
+
+.header .logo{
+  background: rgba(255,255,255, 0);
+  height: 2.56rem;
+  width: 18.375rem;
+}
+
+.header .navbar a{
+  background: rgba(255,255,255, 0);
+  color: var(--claro);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem; 
+  padding: .5rem;
+}
+
+.header .navbar a:hover{
+  border-bottom: .1rem solid var(var(--claro));
+  color: #f7803c;
+  padding-bottom: .5rem;
+  text-decoration: underline;
+}
+
+.btn{
+  background-color: rgba(255,255,255, 0);
+  border-color: var(--claro);
+  color: #ffedbf;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  padding: .5rem;
+}
+
+.btn:hover{
+  background-color: #f7803c;
+}
+
+.dropdown-menu{
+  background: var(--oscuro);
+  font-family: 'Bebas neue';
+  font-size: 1.6rem;
+}
+
+.dropdown-menu li a{
+  color: var(--claro);
+}
+
+/* inicio de estilos para el footer */
+
+.footer {
+  background-color: var(--oscuro);
+  flex-direction: row;
+}
+
+.footer-izq {
+  align-items: center;
+  display: flex; 
+  gap: 2rem;
+  padding: 0 1.5rem;
+}
+
+.footer-izq h3{
+  color: #ffedbf;
+  font-family: "Saira Condensed";
+  font-size: .75rem;
+}
+
+.footer-centro img{
+  max-width: 19rem;
+  max-height: 9rem;
+}
+
+.footer-derecho {
+  color: var(--claro);
+  padding-right: 1rem;
+  padding: 1rem 1.5rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer-derecho h2{
+  font-family: "Saira Condensed";
+  font-size: 1rem;
+}
+
+ /*media queries*/
+
+ @media(width <= 991px){
+
+  #menu-btn{
+    display: inline-block;
+  }
+
+  html{
+    font-size: 65%;
+  }
+
+  section{
+    padding: 2rem 7%;
+  }
+
+  .header .navbar{
+    background: var(--oscuro);
+    position: absolute;
+    flex-direction: column;
+    top: 5rem; right: 0%;
+    width: 20rem;
+  }
+
+  .header .logo img{
+    height: 2.56rem;
+    width: 18.375rem;
+  }
+
+  .header .navbar a{
+    color: var(--claro);
+    display: block;
+    font-size: 2rem;
+    margin: 1.5rem;   
+  }
+
+
+  .header .rightbar{
+    background: var(--oscuro);
+    position: absolute;
+    flex-wrap: wrap;
+    height: 7rem;
+    justify-content: space-around;
+    top: 33rem; right: 0%;
+    width: 20rem;
+  }
+
+  .header .rightbar div{
+    color: var(--claro);
+    display: block;
+    margin: .5rem;
+  }  
+
+  .header .navbar.active{
+    right: 0;
+  }
+  
+  .tracking-in-expand{
+    width: 65%;
+  }
+
+  .nav-bg .nav-center img{
+    width: 15%;
+  }
+
+  .nav-bg .nav-der svg{
+    width: 40%;
+  }
+  
+  .footer .footer-izq svg{
+    height: 25%;
+    width: 25%;
+  }
+
+  .footer-centro img{
+    width: 65%;
+    height: 65%;
+  }
+
+  .footer .footer-derecho h2{
+    font-size: 1.5rem;
+  }
+
+  .footer .footer-derecho svg{
+      width: 25%;
+      height: 25%;
+  }
+}
+
+@media(max-width: 450px){
+  html{
+      font-size: 50%;
+  }
+}

@@ -395,16 +395,13 @@ section{
 
     .home{
         background-position: left;
+        font-size: 1.5rem;
         justify-content: center;
         text-align: center;
     }
 
     .home .content{
         font-size: 4.5rem;
-    }
-
-    .home{
-        font-size: 1.5rem;
     }
 
     .nav-bg .nav-center img{
