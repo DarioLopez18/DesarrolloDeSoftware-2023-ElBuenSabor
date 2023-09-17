@@ -202,7 +202,7 @@ section{
     min-height: 100vh;
 }
 
-.menu .titulo{
+.titulo{
     font-family: "Bebas Neue";
     font-size: 60px;
     text-align: center;
@@ -210,7 +210,12 @@ section{
 }
 
 /* Tarjetas */
-
+.titulo-section{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    text-align: center;
+    color: var(--oscuro);
+}
 .card{
     background-color: var(--claro);
 
@@ -224,8 +229,20 @@ section{
     color:#2e0d23;
     font-family: "Bebas Neue";
     font-size:30px;
+    text-align: center;
 }
 
+.precio{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: #f7803c;
+    color: #2e0d23;
+    font-family: "Saira Condensed" ;
+    font-size:20px;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
 .card-body{
     background-color: var(--claro);
 }
@@ -234,14 +251,19 @@ section{
     font-family: "Saira Condensed";
     font-size: 1.25rem;
     color: #2e0d23;
+    text-align: center;
     
+}
+
+.boton-cart{
+ text-align: center;
 }
 
 .btn-outline-secondary{
     color:#2e0d23;
     border-color: #2e0d23;
     font-family: "Saira Condensed";
-    
+
 }
 
 .btn-outline-secondary:hover{
