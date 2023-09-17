@@ -35,7 +35,6 @@
 
 html{
     overflow-x: hidden;
-    scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
 
@@ -79,8 +78,8 @@ section{
 
 .header .logo{
     background: rgba(255,255,255, 0);
-    height: 41px;
-    width: 294px;
+    height: 2.56rem;
+    width: 18.375rem;
 }
 
 .header .navbar a{
@@ -153,19 +152,23 @@ section{
     display: none;
 }
 
+.bi{
+    color: var(--claro);
+}
+
 .contenedor-vermas{
-  margin: 7rem;
+    margin-top: 19%;
+    background-color: rgba(255,255,255, 0);
 }
 
 .contenedor-vermas a{
-    align-items: center;
+    
     color: var(--claro);
     display: inline-flex;
     flex-direction: column;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
-    left: 50%;
-    position: absolute;   
+    
 }
 
 .contenedor-vermas a:hover{
@@ -174,35 +177,19 @@ section{
 
 /* inicio de estilos para el menu */
 
-.nav a {
-    margin-right: 30px;
-}
-  
-.nav {
-    grid-column-end: 3;
-    grid-column-start: 2;
-}
-  
-.nav-izq {
-    display: flex;
-    justify-content: right;
-    margin-right: 2px;
-}
-  
 .nav-bg {
     background-color: var(--claro);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25%;
 }
   
-.nav-bg .nav-izq {
-    margin-left: 500px;
+.nav-bg .nav-center a{
+    padding: .2rem;
 }
 
-section{
-    padding: 2rem 7%;
-    background-color: #ffedbf;
+.nav-bg .nav-der a{
+    margin: 0.3rem;
 }
 
 .contenedor {
@@ -211,11 +198,26 @@ section{
 }
   /*TEXTO MENU*/
 
+.menu{
+    min-height: 100vh;
+}
+
 .menu .titulo{
     font-family: "Bebas Neue";
     font-size: 60px;
     text-align: center;
     color: var(--oscuro);
+}
+
+/* Tarjetas */
+
+.card{
+    background-color: var(--claro);
+
+}
+
+.shadow-sm{
+    box-shadow: .125rem .125rem .5rem  #2e0d23 !important;
 }
 
 .titulo-cards{
@@ -224,33 +226,48 @@ section{
     font-size:30px;
 }
 
+.card-body{
+    background-color: var(--claro);
+}
+
 .card-text{
     font-family: "Saira Condensed";
-    font-size:20px;
+    font-size: 1.25rem;
+    color: #2e0d23;
+    
+}
+
+.btn-outline-secondary{
+    color:#2e0d23;
+    border-color: #2e0d23;
+    font-family: "Saira Condensed";
+    
+}
+
+.btn-outline-secondary:hover{
+    background-color: #f7803c;
+    border-color: #f7803c;
     color: #2e0d23;
 }
-
-.card-body{
-    background-color: #F8E4C1;
-}
-
 
 /* inicio de estilos para el footer */
 
 .footer {
-    display: flex;
-    justify-content: space-between;
     background-color: var(--oscuro);
-    align-items: center;
+    flex-direction: row;
 }
   
 .footer-izq {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-    color: var(--claro);
-    font-size: .625rem;
-    margin: 0;
+    align-items: center;
+    display: flex; 
+    gap: 2rem;
+    padding: 0 1.5rem;
+}
+
+.footer-izq h3{
+    color: #ffedbf;
+    font-family: "Saira Condensed";
+    font-size: .75rem;
 }
   
 .footer-centro img{
@@ -259,37 +276,17 @@ section{
 }
   
 .footer-derecho {
-    display: grid;
     color: var(--claro);
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
     padding-right: 1rem;
-}
-  
-.email,
-.whatsapp,
-.ig {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-}
-  
-.metodos {
+    padding: 1rem 1.5rem;
     grid-column-start: 1;
     grid-column-end: 3;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    text-decoration: underline;
 }
   
-.contacto {
+.footer-derecho h2{
+    font-family: "Saira Condensed";
     font-size: 1rem;
-    color: var(--claro);
-    margin-bottom: 5px;
-    text-transform: uppercase;
 }
-
-
 
 /*Animacion de texto de h1 de home*/
 
@@ -332,8 +329,14 @@ section{
     .header .navbar{
         background: var(--oscuro);
         position: absolute;
-        top: 5rem; right: -100%;
+        flex-direction: column;
+        top: 5rem; right: 0%;
         width: 20rem;
+    }
+
+    .header .logo img{
+        height: 2.56rem;
+        width: 18.375rem;
     }
 
     .header .navbar a{
@@ -343,13 +346,14 @@ section{
         margin: 1.5rem;   
     }
 
+
     .header .rightbar{
         background: var(--oscuro);
         position: absolute;
         flex-wrap: wrap;
-        height: 6rem;
+        height: 7rem;
         justify-content: space-around;
-        top: 26rem; right: 0%;
+        top: 33rem; right: 0%;
         width: 20rem;
     }
 
@@ -361,6 +365,10 @@ section{
 
     .header .navbar.active{
         right: 0;
+    }
+    
+    .tracking-in-expand{
+        width: 65%;
     }
 
     .home{
@@ -376,9 +384,36 @@ section{
     .home{
         font-size: 1.5rem;
     }
+
+    .nav-bg .nav-center img{
+        width: 15%;
+    }
+
+    .nav-bg .nav-der svg{
+        width: 40%;
+    }
+    
+    .footer .footer-izq svg{
+        height: 25%;
+        width: 25%;
+    }
+
+    .footer-centro img{
+        width: 65%;
+        height: 65%;
+    }
+
+    .footer .footer-derecho h2{
+        font-size: 1.5rem;
+    }
+
+    .footer .footer-derecho svg{
+        width: 25%;
+        height: 25%;
+    }
 }
 
-@media(max-width:450px){
+@media(max-width: 450px){
     html{
         font-size: 50%;
     }
