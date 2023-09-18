@@ -25,7 +25,6 @@ html {
 
 h1,h2,h3,h5{
   font-family: var(--fuente-principal);
-  line-height: 2.5;
 }
 
 * {
