@@ -1,5 +1,5 @@
 # DesarrolloDeSoftware-2023-ElBuenSabor
-# Historia de Usuario #22
+# Historia de Usuario #23
   
 <p align="center">
     <img
