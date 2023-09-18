@@ -31,3 +31,5 @@ Criterios de aceptacion:
 *	Si no se agrega como mínimo un ingrediente, no se podrá dar de alta el producto (el botón tendrá que estar deshabilitado o se tendrá que informar de la situación al cocinero / administrador).
 *	En el formulario anterior debe existir un botón para cancelar el ingreso de un nuevo producto, el cual nos redireccionará de nuevo a la grilla de ingredientes.
 *	El formulario de edición de un producto debe tener las mismas opciones que el de agregar un nuevo producto.
+
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/hu22COC.png)
