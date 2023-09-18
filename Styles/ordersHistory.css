@@ -6,6 +6,7 @@
     /*Paleta de Colores*/
     --claro: #ffedbf;
     --oscuro: #2e0d23;
+    --naranja: #f7803c;
     --border: .1rem solid rgba(255,255,255,.3);
     /*Tipos de fuentes*/
 }
@@ -46,7 +47,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #f7803c;
+    background: var(--naranja);
     border-radius: 5rem;
 }
 
@@ -57,7 +58,8 @@ body{
 }
 
 section{
-    padding: 2rem 7%;
+  padding-top: 9%;
+  min-height: calc(100vh - 5.38rem);
 }
 
 /* inicio de estilos para el header */
@@ -67,7 +69,7 @@ section{
   background: var(--oscuro);
   border-bottom: var(--border);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1.5rem 7%;
   position: absolute;
   top: 0; left: 0; right: 0;
@@ -88,24 +90,17 @@ section{
   padding: .5rem;
 }
 
-.header .navbar a:hover{
-  border-bottom: .1rem solid var(var(--claro));
-  color: #f7803c;
-  padding-bottom: .5rem;
-  text-decoration: underline;
-}
-
 .btn{
   background-color: rgba(255,255,255, 0);
   border-color: var(--claro);
-  color: #ffedbf;
+  color: var(--claro);
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.6rem;
   padding: .5rem;
 }
 
 .btn:hover{
-  background-color: #f7803c;
+  background-color: var(--naranja);
 }
 
 .dropdown-menu{
@@ -118,9 +113,81 @@ section{
   color: var(--claro);
 }
 
+/* inicio de estilos para tabla */
+
+.container{
+  border-radius: 8px;
+  background: var(--oscuro);
+  box-shadow: 0px 4px 20px 0px;
+}
+
+.container h2{
+  padding-left: 1.8rem;
+  padding-top: .75rem;
+  color: var(--claro);
+  font-family: 'Bebas Neue';
+}
+
+.container-fluid{
+  border-radius: 8px;
+  background: var(--claro);
+  box-shadow: 0px 4px 20px 0px;
+}
+
+.table{
+  border-color: var(--oscuro);
+}
+
+.table thead{
+  text-align: center;
+}
+
+.table tbody{
+  text-align: center;
+}
+
+.table tbody tr td{
+  color: var(--oscuro);
+  font-size: 1rem;
+}
+
+.btn-pedido{
+  background-color: var(--naranja);
+  border-radius: .25rem;
+}
+
+.boton{
+  margin: 2rem 0 0 65%;
+}
+
+.boton div a{
+  align-items: center;
+  background-color: #f7803c;
+  border-radius: 4px;
+  color: var(--claro);
+  cursor: pointer;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  text-decoration: none;
+  width: 300px; 
+}
+
+.boton div a:hover{
+  align-items: center;
+  background: var(--oscuro);
+  color: var(--naranja);
+}
+
 /* inicio de estilos para el footer */
 
-.footer {
+.posicion-footer{
+  bottom: 0%;
+}
+
+.footer{
   background-color: var(--oscuro);
   flex-direction: row;
 }
@@ -192,7 +259,6 @@ section{
     margin: 1.5rem;   
   }
 
-
   .header .rightbar{
     background: var(--oscuro);
     position: absolute;
@@ -225,6 +291,10 @@ section{
     width: 40%;
   }
   
+  .boton{
+    margin: 2rem 0 0 56%;
+  }
+
   .footer .footer-izq svg{
     height: 25%;
     width: 25%;
