@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
+
+/*Generales*/
+
+:root{
+    /*Paleta de Colores*/
+    --claro: #ffedbf;
+    --oscuro: #2e0d23;
+    --border: .1rem solid rgba(255,255,255,.3);
+    /*Tipos de fuentes*/
+}
+
+
+
+/*Este codigo sirve para detener el scroll en secciones determinadas para que sea mas facil navegar*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+/*Codigo que se aplica en todo el html*/
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*scrollbar derecho*/
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #0e0e0e;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #f7803c;
+    border-radius: 5rem;
+}
+
+/*codigo que se aplica a todo el body*/
+
+body{
+    background: var(--claro);
+}
+
+section{
+    padding: 9%;
+    min-height: calc(100vh - 5.38rem);
+}
+
+
+/* inicio de estilos para el header */
+
+.header{
+    align-items: center;
+    background:var(--oscuro);
+    border-bottom: var(--border);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 7%;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo{
+    background: rgba(255,255,255, 0);
+    height: 2.56rem;
+    width: 18.375rem;
+}
+
+.header .navbar a{
+    background: rgba(255,255,255, 0);
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem; 
+    padding: .5rem;
+}
+
+.header .navbar a:hover{
+    border-bottom: .1rem solid var(var(--claro));
+    color: #f7803c;
+    padding-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.header .rightbar{
+    background: rgba(255,255,255, 0);
+    display: flex;   
+}
+
+.header .rightbar div a{
+    align-items: center;
+    background-color: #f7803c;
+    border-radius: 4px;
+    color: var(--claro);
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    margin: .1rem;
+    width: 150px;    
+}
+
+.header .rightbar div a:hover{
+    align-items: center;
+    background-color: var(--oscuro);
+    color: #f7803c;
+}
+
+.mi-carrito{
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    text-align: center;
+    color: var(--oscuro);
+}
+
+.table{
+   margin-top: 3%;
+   --bs-table-border-color:var(--oscuro);
+}
+
+.colstyle{
+    color: #2e0d23;
+    font-family: "Bebas Neue";
+    font-size:30px;
+}
+
+.text-table{
+    color: #2e0d23;
+    font-family: "Saira Condensed" ;
+    font-size:25px;
+}
+.boton{
+    display: flex;   
+    margin: 60px 0 0 0;
+}
+.boton div a{
+    align-items: center;
+    background-color: #f7803c;
+    border-radius: 4px;
+    color: var(--claro);
+    cursor: pointer;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    width: 300px; 
+}
+
+.boton div a:hover{
+    align-items: center;
+    background-color: var(--oscuro);
+    color: #f7803c;
+}
+
+.boton-izq{
+    margin-left: 30%;
+}
+
+/* inicio de estilos para el footer */
+
+.position-footer{
+    bottom: 0%;
+}
+.footer {
+    background-color: var(--oscuro);
+    flex-direction: row;
+}
+  
+.footer-izq {
+    align-items: center;
+    display: flex; 
+    gap: 2rem;
+    padding: 0 1.5rem;
+}
+
+.footer-izq h3{
+    color: #ffedbf;
+    font-family: "Saira Condensed";
+    font-size: .75rem;
+}
+  
+.footer-centro img{
+    max-width: 19rem;
+    max-height: 9rem;
+}
+  
+.footer-derecho {
+    color: var(--claro);
+    padding-right: 1rem;
+    padding: 1rem 1.5rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+.footer-derecho h2{
+    font-family: "Saira Condensed";
+    font-size: 1rem;
+}
