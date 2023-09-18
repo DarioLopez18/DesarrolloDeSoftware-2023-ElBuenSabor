@@ -34,4 +34,4 @@ Criterios de aceptacion:
 
 ![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22ADM.png)
 ![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22.1ADM.png)
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22ADM.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22.2ADM.png)
