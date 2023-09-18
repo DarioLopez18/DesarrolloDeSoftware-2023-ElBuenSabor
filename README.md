@@ -9,3 +9,5 @@
     align="center"
 />
 </p>
+
+## Como: Cocinero / Administrador
