@@ -30,6 +30,20 @@
     transition: .2s linear;
 }
 
+
+*::-webkit-scrollbar {
+  width: .8rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--oscuro);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--naranja);
+  border-radius: 5rem;
+}
+
 /*Codigo que se aplica en todo el html*/
 
 html{
@@ -118,12 +132,13 @@ section{
   border-radius: 8px;
   background: var(--claro);
   box-shadow: 0px 4px 20px 0px;
-  height: 500px;
+  height: calc(100vh - 25rem);
   overflow-y: scroll;
 }
 
 .table{
   border-color: var(--oscuro);
+  
 }
 
 .table thead{
@@ -224,7 +239,8 @@ section{
   }
 
   section{
-    padding: 2rem 7%;
+    padding: 9%;
+    min-height: calc(100vh - 5.38rem);
   }
 
   .header .navbar{
@@ -281,6 +297,11 @@ section{
   
   .boton{
     margin: 2rem 0 0 56%;
+  }
+  
+  .boton div a{
+    font-size: 1.5rem;
+    width: 55%; 
   }
 
   .footer .footer-izq svg{
