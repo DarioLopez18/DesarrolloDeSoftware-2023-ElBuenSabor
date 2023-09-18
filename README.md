@@ -24,4 +24,4 @@ Criterios de aceptación:
 *	Cuando un pedido se marque como pagado (al pagar con Mercado Pago o en el local con efectivo), el sistema emitirá automáticamente la factura correspondiente.
 *	La factura emitida se enviará automáticamente al cliente por mail.
 
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU23adm/HU23.3ADM.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU18/HU18.png)
