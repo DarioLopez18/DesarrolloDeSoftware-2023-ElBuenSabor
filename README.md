@@ -27,6 +27,7 @@ Criterios de aceptacion:
 
 
 
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/hu22COC.png)
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/HU22.1COC.png)
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/HU22.2COC.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU23COC/HU23COC.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU23.1COC/HU23COC.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU23COC/HU23.2COC.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU23COC/HU23.3COC.png)
