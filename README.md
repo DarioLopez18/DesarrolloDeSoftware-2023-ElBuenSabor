@@ -18,8 +18,6 @@
 
 ##
 
-Criterios de aceptacion:
-
 Criterios de aceptación:
 *	Cuando un pedido se marque como pagado (al pagar con Mercado Pago o en el local con efectivo), el sistema emitirá automáticamente la factura correspondiente.
 *	La factura emitida se enviará automáticamente al cliente por mail.
