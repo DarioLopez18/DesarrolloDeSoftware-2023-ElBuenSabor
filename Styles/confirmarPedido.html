@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmar Pedido</title>
+    <link rel="stylesheet" href="confirmarPedido.css">
+</head>
+<body>
+    <header class="header">    
+        <div class="logo"><img src="/img/el-buen-sabor.png"></div>
+        <nav class="navbar">
+          <a href="index.html">INICIO</a>
+          <a href="#menu">MENU</a>
+          <a href="#quienesSomos">QUIENES SOMOS</a>
+          <a href="#contacto">CONTACTO</a>
+          <!--hay que poner un icono de una personita para ocultar el rightbar en responsive-->
+        </nav>
+        <div class="rightbar">
+          <div><a href="login.html">ENTRAR</a></div>
+          <div><a href="register.html">CREAR CUENTA</a></div>
+        </div>
+      </header>
+    <div class="container">
+        <h1>Confirmar Pedido</h1>
+        <form action="procesar_pedido.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="direccion">Dirección de entrega:</label>
+            <textarea id="direccion" name="direccion" rows="4" required></textarea>
+
+            <label for="producto">Producto:</label>
+            <select id="producto" name="producto" required>
+                <option value="producto1">Producto 1</option>
+                <option value="producto2">Producto 2</option>
+                <option value="producto3">Producto 3</option>
+            </select>
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+            <button type="submit">Confirmar Pedido</button>
+        </form>
+    </div>
+    <details>
+        <summary>System Requirements</summary>
+        <p>
+          Requires a computer running an operating system. The computer must have some
+          memory and ideally some kind of long-term storage. An input device as well
+          as some form of output device is recommended.
+        </p>
+      </details>
+</body>
+</html>
