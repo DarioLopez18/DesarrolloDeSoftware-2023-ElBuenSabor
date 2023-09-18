@@ -32,6 +32,6 @@ Criterios de aceptacion:
 *	En el formulario anterior debe existir un botón para cancelar el ingreso de un nuevo producto, el cual nos redireccionará de nuevo a la grilla de ingredientes.
 *	El formulario de edición de un producto debe tener las mismas opciones que el de agregar un nuevo producto.
 
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/hu22COC.png)
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/HU22.1COC.png)
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22COC/HU22.2COC.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22ADM.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22.1ADM.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU22adm/HU22ADM.png)
