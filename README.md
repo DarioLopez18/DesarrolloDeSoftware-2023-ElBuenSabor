@@ -24,4 +24,4 @@ Criterios de aceptacion:
 *	Al momento de emisión de la nota de crédito, se tendrán que agregar al stock los ingredientes que fueron descontados cuando se confirmó el pedido.
 
 
-![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU18/HU18.png)
+![image](https://github.com/DarioLopez18/DesarrolloDeSoftware-2023-ElBuenSabor/blob/HU19COC/HU19COC.png)
