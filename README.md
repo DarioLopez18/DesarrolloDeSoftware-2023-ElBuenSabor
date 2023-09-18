@@ -10,4 +10,9 @@
 />
 </p>
 
-## Como: Cocinero / Administrador
+## 
+
+* Como: Cocinero / Administrador
+* Quiero: Tener control de los productos a la venta
+* Para: Podewr registrar nuevos productos, modificar existentes o darlos de alta/baja
+
