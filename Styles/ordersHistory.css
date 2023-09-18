@@ -90,6 +90,15 @@ section{
   padding: .5rem;
 }
 
+.header .navbar .pCaj{
+  background: rgba(255,255,255, 0);
+  color: var(--claro);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .btn{
   background-color: rgba(255,255,255, 0);
   border-color: var(--claro);

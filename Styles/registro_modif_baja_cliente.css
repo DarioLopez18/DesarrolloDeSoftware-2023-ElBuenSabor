@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
+
+/*Generales*/
+:root {
+  /**Paleta de Colores**/
+  --naranja: #f7803c;
+  --primario: #2e0d23;
+  --secundario: #ffedbf;
+  --rojo: #f54828;
+
+  --fuente-principal: "Bebas Neue", sans-serif;
+}
+
+/*Codigo que se aplica en todo el html*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*1rem ->10px*/
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /*Le sacamos el borde al body de 16px*/
+  box-sizing: border-box;
+}
+
+/*codigo que se aplica a todo el body*/
+body {
+  font-size: 16px;
+  /* 1rem = 10px */
+  font-family: var(--fuente-principal);
+  background-color: var(--secundario);
+  /*Todos los textos van a tener esta fuente*/
+}
+
+.tabla {
+  display: flex;
+  background-color: #2e0d23;
+  margin-top: 1%;
+  justify-content: space-evenly;
+  color: var(--secundario);
+  text-transform: uppercase;
+  align-items: center;
+}
+
+@media (max-width: 750px) {
+  .tabla {
+    flex-direction: column;
+  }
+}
+
+.tabla a {
+  text-decoration: none;
+}
+
+.hr-tabla {
+  border: none;
+  border-left: 1px solid var(--secundario);
+  height: 3vh;
+}
+
+.btn {
+  background-color: var(--rojo);
+  padding: 1rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: var(--secundario);
+  width: 15rem;
+  font-size: 2rem;
+  font-family: var(--fuente-principal);
+}
+
+.btn-filtro {
+  background-color: var(--primario);
+  border: 0.5px solid var(--secundario);
+  padding: 1rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: var(--naranja);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: var(--fuente-principal);
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.input input[type="text"] {
+  background-color: #2e0d23;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--secundario);
+  color: var(--secundario);
+}
+
+.input input[type="text"]:focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--secundario);
+  outline: none;
+}
+
+.table td {
+  background-color: var(--secundario);
+}
+
+.filtros {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 470px) {
+  .filtros {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.grid h2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media (max-width: 710px) {
+  footer {
+    flex-direction: column;
+  }
+  footer h2 {
+    text-align: center;
+  }
+}
+
+.modal-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  place-items: center;
+  margin: 0 auto;
+  column-gap: 2rem;
+  row-gap: 5px;
+}
+
+.input-class input[type="text"]{
+  border-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    .modal-grid{
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(8,1fr);
+    }
+}
+
+@media (max-width: 516px) {
+  .receta-header{
+    flex-direction: column;
+  }
+  .receta-header input[type="text"]{
+    width: 100% !important;
+  }
+
+}
