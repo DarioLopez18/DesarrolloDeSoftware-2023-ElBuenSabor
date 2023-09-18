@@ -37,20 +37,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/*scrollbar derecho*/
-html::-webkit-scrollbar{
-    width: .8rem;
-}
-
-html::-webkit-scrollbar-track{
-    background: #0e0e0e;
-}
-
-html::-webkit-scrollbar-thumb{
-    background: var(--naranja);
-    border-radius: 5rem;
-}
-
 /*codigo que se aplica a todo el body*/
 
 body{
@@ -132,6 +118,8 @@ section{
   border-radius: 8px;
   background: var(--claro);
   box-shadow: 0px 4px 20px 0px;
+  height: 500px;
+  overflow-y: scroll;
 }
 
 .table{
