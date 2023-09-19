@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
+
+/*Generales*/
+
+:root{
+    /*Paleta de Colores*/
+    --claro: #ffedbf;
+    --oscuro: #2e0d23;
+    --border: .1rem solid rgba(255,255,255,.3);
+    /*Tipos de fuentes*/
+}
+
+
+  
+.nav-bg {
+    background-color: var(--claro);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+  
+.nav-bg .nav-izq {
+    margin-left: 500px;
+}
+
+
+
+/* inicio de estilos para el footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--oscuro);
+    align-items: center;
+}
+  
+.footer-izq {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    color: var(--claro);
+    font-size: .625rem;
+    margin: 0;
+}
+  
+.footer-centro img{
+    max-width: 19rem;
+    max-height: 9rem;
+}
+  
+.footer-derecho {
+    display: grid;
+    color: var(--claro);
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-right: 1rem;
+}
+  
+.email,
+.whatsapp,
+.ig {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+  
+.metodos {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+  
+.contacto {
+    font-size: 1rem;
+    color: var(--claro);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+
+/*Animacion de texto de h1 de home*/
+
+.tracking-in-expand {
+	animation: tracking-in-expand 2s cubic-bezier(0.445, 0.610, 0.550, 1.500) 5ms forwards;
+    height: 300px;
+    margin-left: 60px;
+    width: 550px;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+ /*media queries*/
+
+@media(width <= 991px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    html{
+        font-size: 65%;
+    }
+
+    section{
+        padding: 2rem 7%;
+    }
+
+    .header .navbar{
+        background: var(--oscuro);
+        position: absolute;
+        top: 5rem; right: -100%;
+        width: 20rem;
+    }
+
+    .header .navbar a{
+        color: var(--claro);
+        display: block;
+        font-size: 2rem;
+        margin: 1.5rem;   
+    }
+
+    .header .rightbar{
+        background: var(--oscuro);
+        position: absolute;
+        flex-wrap: wrap;
+        height: 6rem;
+        justify-content: space-around;
+        top: 26rem; right: 0%;
+        width: 20rem;
+    }
+
+    .header .rightbar div{
+        color: var(--claro);
+        display: block;
+        margin: .5rem;
+    }  
+
+    .header .navbar.active{
+        right: 0;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content{
+        font-size: 4.5rem;
+    }
+
+    .home{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
+
+.header {
+    align-items: center;
+    background: var(--oscuro);
+    border-bottom: var(--border);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    background: rgba(255, 255, 255, 0);
+    height: 2.56rem;
+    width: 18.375rem;
+}
+
+.header .navbar a {
+    background: rgba(255, 255, 255, 0);
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: var(--claro);
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+
+.btn:hover {
+    background-color: var(--naranja);
+}
+
+.dropdown-menu {
+    background: var(--oscuro);
+    font-family: 'Bebas neue';
+    font-size: 1.6rem;
+}
+
+.dropdown-menu li a {
+    color: var(--claro);
+}
+
+
+
+/* -------------------------- */
+
+body {
+    background-color: rgba(255, 237, 191, 1);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.flexbox {
+    align-items: center;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    width: 480px;
+    background: rgba(46, 13, 35, 1);
+    color: rgba(255, 237, 191, 1);
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+#sectionBarraNavegacion {
+    display: flex;
+    margin: 10px;
+}
+
+.promedioTicket {
+    width: 510px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, .06);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+
+.promedioPedido {
+    width: 510px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, .06);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+
+
+.botonTiempo {
+    width: 70px;
+    height: 45px;
+    align-items: center;
+    background-color: rgba(46, 13, 35, 1);
+    border-radius: 10px;
+    color: rgba(255, 237, 191, 1);
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.promTicket {
+    width: 510px;
+    height: 270px;
+
+
+
+}
+
+.contenedoraPromedios {
+    float: left;
+    margin-right: 114px;
+}
+
+
+.textoPromTicket {
+    display: flex;
+    font-size: 48px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.graficoEstadistica {
+    margin-top: 50px;
+}
+
+.referenciaGrafico {
+    display: flex;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.botonGenerarInforme {
+    width: 200px;
+    height: 54px;
+    background-color: rgba(46, 13, 35, 1);
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 237, 191, 1);
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 30px;
+}
