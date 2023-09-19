@@ -8,7 +8,8 @@
     --oscuro: #2e0d23;
     --naranja: #f7803c;
     --border: .1rem solid rgba(255,255,255,.3);
-    /*Tipos de fuentes*/
+    /*Tipos de fuentes*/ 
+    --fuente-principal: "Bebas Neue", sans-serif;
 }
 
 /*Este codigo sirve para detener el scroll en secciones determinadas para que sea mas facil navegar*/
@@ -39,8 +40,19 @@ html{
 
 /*codigo que se aplica a todo el body*/
 
-body{
-    background: var(--claro);
+h1,
+h2,
+h3,
+h5 {
+  font-family: var(--fuente-principal);
+}
+body {
+  background: var(--claro);
+  font-family: var(--fuente-principal);
+}
+a {
+  text-decoration: none;
+  color: #2e0d23;
 }
 
 section{
