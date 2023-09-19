@@ -13,7 +13,7 @@
 ## 
 
 *  Como: Cocinero / Administrador
-*  Quiero: Tener control de los rubros de ingredientes
+*  Quiero: Tener control de los rubros de productos
 *  Para: Poder asignarlos a los ingredientes correspondientes
 
 
