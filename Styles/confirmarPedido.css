@@ -59,7 +59,7 @@ body{
 }
 
 section{
-    padding: 9%;
+    padding-top: 9%;
     min-height: calc(100vh - 5.38rem);
 }
 
@@ -123,79 +123,150 @@ section{
     color: #f7803c;
 }
 
-
-
-
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+.titulo-confirmar{
+    font-family: "Bebas Neue";
+    font-size: 60px;
     text-align: center;
+    color: var(--oscuro);
 }
 
-h1 {
-    color: #333;
-}
-
-form {
+.forma-entrega{
+    font-family: "Saira Condensed";
+    font-size: 40px;
     text-align: left;
+    margin-left: 1%;
+    color: var(--oscuro);
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
+.boton-eleccion{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-input[type="text"],
-textarea,
-select,
-input[type="number"] {
+.retiro{
+    background-color: #f7803c;
+    color: #2e0d23;
+    font-family:"Saira Condensed";
+    font-size: 25px;
+    width: 50vw;
+    text-align: left;
+    padding-left: 20px;
+    border-right: #2e0d23 1px solid;
+}
+
+.entrega-domicilio{
+    background-color: #f7803c;
+    color: #2e0d23;
+    font-family:"Saira Condensed";
+    font-size: 25px;
+    width: 50vw;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.retiro:hover{
+    background-color: #2e0d23;
+    color: #f7803c;
+    font-family:"Saira Condensed";
+    font-size: 25px;
+}
+
+.entrega-domicilio:hover{
+    background-color: #2e0d23;
+    color: #f7803c;
+    font-family:"Saira Condensed";
+    font-size: 25px;
+}
+.text-coteiner-button{
+    font-family:"Saira Condensed";
+    font-size: 18px;
+}
+
+.form-direccion{
+    padding: 20px;
+}
+.titulo-form{
+    font-family: "Saira Condensed";
+    font-size: 25px;
+    text-align: left;
+    color: var(--oscuro);
+}
+
+.controls{
+    background: #ffedbf;
+    border-radius: 4px;
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #2e0d23;
+    font-family: "Saira Condensed";
 }
 
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
+.boton{
+    display: flex;   
+    margin: 50px;
+    justify-content: space-evenly;
+}
+.boton div a{
+    text-decoration: none;
+    align-items: center;
+    background-color: #f7803c;
+    border-radius: 4px;
+    color: var(--claro);
     cursor: pointer;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    width: 300px; 
 }
 
-button:hover {
-    background-color: #0056b3;
+.boton div a:hover{
+    align-items: center;
+    background-color: var(--oscuro);
+    color: #f7803c;
 }
 
-details {
-    font:
-      16px "Open Sans",
-      Calibri,
-      sans-serif;
-    width: 620px;
-  }
+
+
+  /* inicio de estilos para el footer */
+
+.position-footer{
+    bottom: 0%;
+}
+.footer {
+    background-color: var(--oscuro);
+    flex-direction: row;
+}
   
-  details > summary {
-    padding: 2px 6px;
-    width: 15em;
-    background-color: #ddd;
-    border: none;
-    box-shadow: 3px 3px 4px black;
-    cursor: pointer;
-    list-style: none;
-  }
+.footer-izq {
+    align-items: center;
+    display: flex; 
+    gap: 2rem;
+    padding: 0 1.5rem;
+}
+
+.footer-izq h3{
+    color: #ffedbf;
+    font-family: "Saira Condensed";
+    font-size: .75rem;
+}
   
-  details > p {
-    border-radius: 0 0 10px 10px;
-    background-color: #ddd;
-    padding: 2px 6px;
-    margin: 0;
-    box-shadow: 3px 3px 4px black;
-  }
+.footer-centro img{
+    max-width: 19rem;
+    max-height: 9rem;
+}
+  
+.footer-derecho {
+    color: var(--claro);
+    padding-right: 1rem;
+    padding: 1rem 1.5rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+  
+.footer-derecho h2{
+    font-family: "Saira Condensed";
+    font-size: 1rem;
+}
