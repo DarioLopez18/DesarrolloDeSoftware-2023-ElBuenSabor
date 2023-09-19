@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed&display=swap');
+
+/*Generales*/
+
+:root{
+    /*Paleta de Colores*/
+    --claro: #ffedbf;
+    --oscuro: #2e0d23;
+    --border: .1rem solid rgba(255,255,255,.3);
+    /*Tipos de fuentes*/
+}
+
+
+
+/*Este codigo sirve para detener el scroll en secciones determinadas para que sea mas facil navegar*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+/*Codigo que se aplica en todo el html*/
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*scrollbar derecho*/
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #0e0e0e;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #f7803c;
+    border-radius: 5rem;
+}
+
+/*codigo que se aplica a todo el body*/
+
+body{
+    background: var(--claro);
+}
+
+section{
+    padding: 9%;
+    min-height: calc(100vh - 5.38rem);
+}
+
+/* inicio de estilos para el header */
+
+.header{
+    align-items: center;
+    background:var(--oscuro);
+    border-bottom: var(--border);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 7%;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo{
+    background: rgba(255,255,255, 0);
+    height: 2.56rem;
+    width: 18.375rem;
+}
+
+.header .navbar a{
+    background: rgba(255,255,255, 0);
+    color: var(--claro);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem; 
+    padding: .5rem;
+}
+
+.header .navbar a:hover{
+    border-bottom: .1rem solid var(var(--claro));
+    color: #f7803c;
+    padding-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.header .rightbar{
+    background: rgba(255,255,255, 0);
+    display: flex;   
+}
+
+.header .rightbar div a{
+    align-items: center;
+    background-color: #f7803c;
+    border-radius: 4px;
+    color: var(--claro);
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    margin: .1rem;
+    width: 150px;    
+}
+
+.header .rightbar div a:hover{
+    align-items: center;
+    background-color: var(--oscuro);
+    color: #f7803c;
+}
+
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+details {
+    font:
+      16px "Open Sans",
+      Calibri,
+      sans-serif;
+    width: 620px;
+  }
+  
+  details > summary {
+    padding: 2px 6px;
+    width: 15em;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 4px black;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+  }
